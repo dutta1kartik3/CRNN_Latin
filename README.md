@@ -18,7 +18,7 @@ Instructions for Training -- Following the stucture in IIIT-HW-Dev dataset, one 
 PS: The code is based upon the work done here: https://github.com/bgshih/crnn (Search in that repos forum in case of doubts)
 IAM dataset link: http://www.fki.inf.unibe.ch/databases/iam-handwriting-database
 
-####
+
 A basisc description of the various files and folders
 Model Folder:
 config.lua::
@@ -38,7 +38,7 @@ testInterval: After how many iterations you get test
 results
 trainSetPath and valSetPath need to be set where 
 the training and validation lmdb files are present
-------------------
+
 In src folder:
 DatasetLmdb.lua --> only need to change local imgW, imgH
 everywhere
@@ -49,17 +49,17 @@ decoding.
 
 inference.lua --> lexicon size is fixed to 30 characters.
 
----------
+
 
 utilities.lua
     ascii2label:
     ranking always starts from 1
     ends at nClasses in config.lua
-
-    label2ascii:
+   
+   label2ascii:
     opposite of ascii2label function
     and be careful of label ==0 case
 
         
-    loadAndResizeImage:
+   loadAndResizeImage:
     Needs to be the set to the same values in DatasetLmdb.lua 
