@@ -1,0 +1,3 @@
+/OCRData/minesh.mathew/cnn_rnn/crnn_kartik2/src3/cpp/build/CMakeFiles/edit_cache.dir
+/OCRData/minesh.mathew/cnn_rnn/crnn_kartik2/src3/cpp/build/CMakeFiles/rebuild_cache.dir
+/OCRData/minesh.mathew/cnn_rnn/crnn_kartik2/src3/cpp/build/CMakeFiles/crnn.dir
